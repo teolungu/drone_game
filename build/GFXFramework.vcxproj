@@ -1,0 +1,594 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{922C00DD-2D82-3F07-B27C-3DDE39897884}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>GFXFramework</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\basar\Desktop\Tema2\build\bin\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">GFXFramework.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">GFXFramework</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <LocalDebuggerWorkingDirectory Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/basar/Desktop/Tema2</LocalDebuggerWorkingDirectory>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\basar\Desktop\Tema2\build\bin\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">GFXFramework.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">GFXFramework</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <LocalDebuggerWorkingDirectory Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/basar/Desktop/Tema2</LocalDebuggerWorkingDirectory>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\basar\Desktop\Tema2\build\bin\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">GFXFramework.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">GFXFramework</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <LocalDebuggerWorkingDirectory Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/basar/Desktop/Tema2</LocalDebuggerWorkingDirectory>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\basar\Desktop\Tema2\build\bin\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">GFXFramework.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">GFXFramework</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+    <LocalDebuggerWorkingDirectory Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/basar/Desktop/Tema2</LocalDebuggerWorkingDirectory>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\basar\Desktop\Tema2\deps\api;C:\Users\basar\Desktop\Tema2\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4100;4458;4189</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <TreatWarningAsError>false</TreatWarningAsError>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;LIBGFXC_EXPORTS;GLM_FORCE_SILENT_WARNINGS;_CRT_SECURE_NO_WARNINGS;SOLVED;DEBUG;WITH_LAB_M1;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;LIBGFXC_EXPORTS;GLM_FORCE_SILENT_WARNINGS;_CRT_SECURE_NO_WARNINGS;SOLVED;DEBUG;WITH_LAB_M1;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\basar\Desktop\Tema2\deps\api;C:\Users\basar\Desktop\Tema2\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\basar\Desktop\Tema2\deps\api;C:\Users\basar\Desktop\Tema2\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>			</Message>
+      <Command>setlocal
+E:\CMake\bin\cmake.exe -E copy_if_different C:/Users/basar/Desktop/Tema2/deps/prebuilt/GL/x86_64/glew32.dll C:/Users/basar/Desktop/Tema2/deps/prebuilt/GLFW/x86_64/glfw3.dll C:/Users/basar/Desktop/Tema2/deps/prebuilt/assimp/x86_64/assimp.dll C:/Users/basar/Desktop/Tema2/deps/prebuilt/spdlog/x86_64/spdlog.dll C:/Users/basar/Desktop/Tema2/deps/prebuilt/freetype/x86_64/freetype.dll C:/Users/basar/Desktop/Tema2/build/bin/Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+rmdir /S /Q C:\Users\basar\Desktop\Tema2\build\bin\Debug\src
+if %errorlevel% neq 0 goto :cmEnd
+mklink /J C:\Users\basar\Desktop\Tema2\build\bin\Debug\src C:\Users\basar\Desktop\Tema2\src
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+rmdir /S /Q C:\Users\basar\Desktop\Tema2\build\bin\Debug\assets
+if %errorlevel% neq 0 goto :cmEnd
+mklink /J C:\Users\basar\Desktop\Tema2\build\bin\Debug\assets C:\Users\basar\Desktop\Tema2\assets
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+E:\CMake\bin\cmake.exe -E copy_if_different C:\Users\basar\Desktop\Tema2/deps/prebuilt/GFXComponents/x86_64/GFXComponents.dll C:\Users\basar\Desktop\Tema2\build\bin\Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>opengl32.lib;glu32.lib;C:\Users\basar\Desktop\Tema2\deps\prebuilt\GL\x86_64\glew32.lib;C:\Users\basar\Desktop\Tema2\deps\prebuilt\GLFW\x86_64\glfw3dll.lib;C:\Users\basar\Desktop\Tema2\deps\prebuilt\assimp\x86_64\assimp.lib;C:\Users\basar\Desktop\Tema2\deps\prebuilt\spdlog\x86_64\spdlog.lib;C:\Users\basar\Desktop\Tema2\deps\prebuilt\freetype\x86_64\freetype.lib;C:\Users\basar\Desktop\Tema2\deps\prebuilt\GFXComponents\x86_64\GFXComponents.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/basar/Desktop/Tema2/build/Debug/GFXFramework.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/basar/Desktop/Tema2/build/bin/Debug/GFXFramework.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\basar\Desktop\Tema2\deps\api;C:\Users\basar\Desktop\Tema2\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <DisableSpecificWarnings>4100;4458;4189</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <TreatWarningAsError>false</TreatWarningAsError>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;LIBGFXC_EXPORTS;GLM_FORCE_SILENT_WARNINGS;_CRT_SECURE_NO_WARNINGS;SOLVED;WITH_LAB_M1;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;LIBGFXC_EXPORTS;GLM_FORCE_SILENT_WARNINGS;_CRT_SECURE_NO_WARNINGS;SOLVED;WITH_LAB_M1;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\basar\Desktop\Tema2\deps\api;C:\Users\basar\Desktop\Tema2\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\basar\Desktop\Tema2\deps\api;C:\Users\basar\Desktop\Tema2\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>			</Message>
+      <Command>setlocal
+E:\CMake\bin\cmake.exe -E copy_if_different C:/Users/basar/Desktop/Tema2/deps/prebuilt/GL/x86_64/glew32.dll C:/Users/basar/Desktop/Tema2/deps/prebuilt/GLFW/x86_64/glfw3.dll C:/Users/basar/Desktop/Tema2/deps/prebuilt/assimp/x86_64/assimp.dll C:/Users/basar/Desktop/Tema2/deps/prebuilt/spdlog/x86_64/spdlog.dll C:/Users/basar/Desktop/Tema2/deps/prebuilt/freetype/x86_64/freetype.dll C:/Users/basar/Desktop/Tema2/build/bin/Release
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+rmdir /S /Q C:\Users\basar\Desktop\Tema2\build\bin\Release\src
+if %errorlevel% neq 0 goto :cmEnd
+mklink /J C:\Users\basar\Desktop\Tema2\build\bin\Release\src C:\Users\basar\Desktop\Tema2\src
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+rmdir /S /Q C:\Users\basar\Desktop\Tema2\build\bin\Release\assets
+if %errorlevel% neq 0 goto :cmEnd
+mklink /J C:\Users\basar\Desktop\Tema2\build\bin\Release\assets C:\Users\basar\Desktop\Tema2\assets
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+E:\CMake\bin\cmake.exe -E copy_if_different C:\Users\basar\Desktop\Tema2/deps/prebuilt/GFXComponents/x86_64/GFXComponents.dll C:\Users\basar\Desktop\Tema2\build\bin\Release
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>opengl32.lib;glu32.lib;C:\Users\basar\Desktop\Tema2\deps\prebuilt\GL\x86_64\glew32.lib;C:\Users\basar\Desktop\Tema2\deps\prebuilt\GLFW\x86_64\glfw3dll.lib;C:\Users\basar\Desktop\Tema2\deps\prebuilt\assimp\x86_64\assimp.lib;C:\Users\basar\Desktop\Tema2\deps\prebuilt\spdlog\x86_64\spdlog.lib;C:\Users\basar\Desktop\Tema2\deps\prebuilt\freetype\x86_64\freetype.lib;C:\Users\basar\Desktop\Tema2\deps\prebuilt\GFXComponents\x86_64\GFXComponents.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/basar/Desktop/Tema2/build/Release/GFXFramework.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/basar/Desktop/Tema2/build/bin/Release/GFXFramework.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\basar\Desktop\Tema2\deps\api;C:\Users\basar\Desktop\Tema2\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <DisableSpecificWarnings>4100;4458;4189</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <TreatWarningAsError>false</TreatWarningAsError>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;LIBGFXC_EXPORTS;GLM_FORCE_SILENT_WARNINGS;_CRT_SECURE_NO_WARNINGS;SOLVED;WITH_LAB_M1;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;LIBGFXC_EXPORTS;GLM_FORCE_SILENT_WARNINGS;_CRT_SECURE_NO_WARNINGS;SOLVED;WITH_LAB_M1;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\basar\Desktop\Tema2\deps\api;C:\Users\basar\Desktop\Tema2\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\basar\Desktop\Tema2\deps\api;C:\Users\basar\Desktop\Tema2\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>			</Message>
+      <Command>setlocal
+E:\CMake\bin\cmake.exe -E copy_if_different C:/Users/basar/Desktop/Tema2/deps/prebuilt/GL/x86_64/glew32.dll C:/Users/basar/Desktop/Tema2/deps/prebuilt/GLFW/x86_64/glfw3.dll C:/Users/basar/Desktop/Tema2/deps/prebuilt/assimp/x86_64/assimp.dll C:/Users/basar/Desktop/Tema2/deps/prebuilt/spdlog/x86_64/spdlog.dll C:/Users/basar/Desktop/Tema2/deps/prebuilt/freetype/x86_64/freetype.dll C:/Users/basar/Desktop/Tema2/build/bin/MinSizeRel
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+rmdir /S /Q C:\Users\basar\Desktop\Tema2\build\bin\MinSizeRel\src
+if %errorlevel% neq 0 goto :cmEnd
+mklink /J C:\Users\basar\Desktop\Tema2\build\bin\MinSizeRel\src C:\Users\basar\Desktop\Tema2\src
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+rmdir /S /Q C:\Users\basar\Desktop\Tema2\build\bin\MinSizeRel\assets
+if %errorlevel% neq 0 goto :cmEnd
+mklink /J C:\Users\basar\Desktop\Tema2\build\bin\MinSizeRel\assets C:\Users\basar\Desktop\Tema2\assets
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+E:\CMake\bin\cmake.exe -E copy_if_different C:\Users\basar\Desktop\Tema2/deps/prebuilt/GFXComponents/x86_64/GFXComponents.dll C:\Users\basar\Desktop\Tema2\build\bin\MinSizeRel
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>opengl32.lib;glu32.lib;C:\Users\basar\Desktop\Tema2\deps\prebuilt\GL\x86_64\glew32.lib;C:\Users\basar\Desktop\Tema2\deps\prebuilt\GLFW\x86_64\glfw3dll.lib;C:\Users\basar\Desktop\Tema2\deps\prebuilt\assimp\x86_64\assimp.lib;C:\Users\basar\Desktop\Tema2\deps\prebuilt\spdlog\x86_64\spdlog.lib;C:\Users\basar\Desktop\Tema2\deps\prebuilt\freetype\x86_64\freetype.lib;C:\Users\basar\Desktop\Tema2\deps\prebuilt\GFXComponents\x86_64\GFXComponents.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/basar/Desktop/Tema2/build/MinSizeRel/GFXFramework.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/basar/Desktop/Tema2/build/bin/MinSizeRel/GFXFramework.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\basar\Desktop\Tema2\deps\api;C:\Users\basar\Desktop\Tema2\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4100;4458;4189</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <TreatWarningAsError>false</TreatWarningAsError>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;LIBGFXC_EXPORTS;GLM_FORCE_SILENT_WARNINGS;_CRT_SECURE_NO_WARNINGS;SOLVED;WITH_LAB_M1;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;LIBGFXC_EXPORTS;GLM_FORCE_SILENT_WARNINGS;_CRT_SECURE_NO_WARNINGS;SOLVED;WITH_LAB_M1;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\basar\Desktop\Tema2\deps\api;C:\Users\basar\Desktop\Tema2\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\basar\Desktop\Tema2\deps\api;C:\Users\basar\Desktop\Tema2\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>			</Message>
+      <Command>setlocal
+E:\CMake\bin\cmake.exe -E copy_if_different C:/Users/basar/Desktop/Tema2/deps/prebuilt/GL/x86_64/glew32.dll C:/Users/basar/Desktop/Tema2/deps/prebuilt/GLFW/x86_64/glfw3.dll C:/Users/basar/Desktop/Tema2/deps/prebuilt/assimp/x86_64/assimp.dll C:/Users/basar/Desktop/Tema2/deps/prebuilt/spdlog/x86_64/spdlog.dll C:/Users/basar/Desktop/Tema2/deps/prebuilt/freetype/x86_64/freetype.dll C:/Users/basar/Desktop/Tema2/build/bin/RelWithDebInfo
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+rmdir /S /Q C:\Users\basar\Desktop\Tema2\build\bin\RelWithDebInfo\src
+if %errorlevel% neq 0 goto :cmEnd
+mklink /J C:\Users\basar\Desktop\Tema2\build\bin\RelWithDebInfo\src C:\Users\basar\Desktop\Tema2\src
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+rmdir /S /Q C:\Users\basar\Desktop\Tema2\build\bin\RelWithDebInfo\assets
+if %errorlevel% neq 0 goto :cmEnd
+mklink /J C:\Users\basar\Desktop\Tema2\build\bin\RelWithDebInfo\assets C:\Users\basar\Desktop\Tema2\assets
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+E:\CMake\bin\cmake.exe -E copy_if_different C:\Users\basar\Desktop\Tema2/deps/prebuilt/GFXComponents/x86_64/GFXComponents.dll C:\Users\basar\Desktop\Tema2\build\bin\RelWithDebInfo
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>opengl32.lib;glu32.lib;C:\Users\basar\Desktop\Tema2\deps\prebuilt\GL\x86_64\glew32.lib;C:\Users\basar\Desktop\Tema2\deps\prebuilt\GLFW\x86_64\glfw3dll.lib;C:\Users\basar\Desktop\Tema2\deps\prebuilt\assimp\x86_64\assimp.lib;C:\Users\basar\Desktop\Tema2\deps\prebuilt\spdlog\x86_64\spdlog.lib;C:\Users\basar\Desktop\Tema2\deps\prebuilt\freetype\x86_64\freetype.lib;C:\Users\basar\Desktop\Tema2\deps\prebuilt\GFXComponents\x86_64\GFXComponents.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/basar/Desktop/Tema2/build/RelWithDebInfo/GFXFramework.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/basar/Desktop/Tema2/build/bin/RelWithDebInfo/GFXFramework.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\basar\Desktop\Tema2\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/basar/Desktop/Tema2/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+E:\CMake\bin\cmake.exe -SC:/Users/basar/Desktop/Tema2 -BC:/Users/basar/Desktop/Tema2/build --check-stamp-file C:/Users/basar/Desktop/Tema2/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\basar\Desktop\Tema2\build\CMakeFiles\3.31.0-rc3\CMakeCCompiler.cmake;C:\Users\basar\Desktop\Tema2\build\CMakeFiles\3.31.0-rc3\CMakeCXXCompiler.cmake;C:\Users\basar\Desktop\Tema2\build\CMakeFiles\3.31.0-rc3\CMakeRCCompiler.cmake;C:\Users\basar\Desktop\Tema2\build\CMakeFiles\3.31.0-rc3\CMakeSystem.cmake;C:\Users\basar\Desktop\Tema2\infra\utils.cmake;E:\CMake\share\cmake-3.31\Modules\CMakeCCompiler.cmake.in;E:\CMake\share\cmake-3.31\Modules\CMakeCCompilerABI.c;E:\CMake\share\cmake-3.31\Modules\CMakeCInformation.cmake;E:\CMake\share\cmake-3.31\Modules\CMakeCXXCompiler.cmake.in;E:\CMake\share\cmake-3.31\Modules\CMakeCXXCompilerABI.cpp;E:\CMake\share\cmake-3.31\Modules\CMakeCXXInformation.cmake;E:\CMake\share\cmake-3.31\Modules\CMakeCommonLanguageInclude.cmake;E:\CMake\share\cmake-3.31\Modules\CMakeCompilerIdDetection.cmake;E:\CMake\share\cmake-3.31\Modules\CMakeDetermineCCompiler.cmake;E:\CMake\share\cmake-3.31\Modules\CMakeDetermineCXXCompiler.cmake;E:\CMake\share\cmake-3.31\Modules\CMakeDetermineCompiler.cmake;E:\CMake\share\cmake-3.31\Modules\CMakeDetermineCompilerABI.cmake;E:\CMake\share\cmake-3.31\Modules\CMakeDetermineCompilerId.cmake;E:\CMake\share\cmake-3.31\Modules\CMakeDetermineCompilerSupport.cmake;E:\CMake\share\cmake-3.31\Modules\CMakeDetermineRCCompiler.cmake;E:\CMake\share\cmake-3.31\Modules\CMakeDetermineSystem.cmake;E:\CMake\share\cmake-3.31\Modules\CMakeFindBinUtils.cmake;E:\CMake\share\cmake-3.31\Modules\CMakeGenericSystem.cmake;E:\CMake\share\cmake-3.31\Modules\CMakeInitializeConfigs.cmake;E:\CMake\share\cmake-3.31\Modules\CMakeLanguageInformation.cmake;E:\CMake\share\cmake-3.31\Modules\CMakeParseImplicitIncludeInfo.cmake;E:\CMake\share\cmake-3.31\Modules\CMakeParseImplicitLinkInfo.cmake;E:\CMake\share\cmake-3.31\Modules\CMakeParseLibraryArchitecture.cmake;E:\CMake\share\cmake-3.31\Modules\CMakeRCCompiler.cmake.in;E:\CMake\share\cmake-3.31\Modules\CMakeRCInformation.cmake;E:\CMake\share\cmake-3.31\Modules\CMakeSystem.cmake.in;E:\CMake\share\cmake-3.31\Modules\CMakeSystemSpecificInformation.cmake;E:\CMake\share\cmake-3.31\Modules\CMakeSystemSpecificInitialize.cmake;E:\CMake\share\cmake-3.31\Modules\CMakeTestCCompiler.cmake;E:\CMake\share\cmake-3.31\Modules\CMakeTestCXXCompiler.cmake;E:\CMake\share\cmake-3.31\Modules\CMakeTestCompilerCommon.cmake;E:\CMake\share\cmake-3.31\Modules\CMakeTestRCCompiler.cmake;E:\CMake\share\cmake-3.31\Modules\Compiler\ADSP-DetermineCompiler.cmake;E:\CMake\share\cmake-3.31\Modules\Compiler\ARMCC-DetermineCompiler.cmake;E:\CMake\share\cmake-3.31\Modules\Compiler\ARMClang-DetermineCompiler.cmake;E:\CMake\share\cmake-3.31\Modules\Compiler\AppleClang-DetermineCompiler.cmake;E:\CMake\share\cmake-3.31\Modules\Compiler\Borland-DetermineCompiler.cmake;E:\CMake\share\cmake-3.31\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;E:\CMake\share\cmake-3.31\Modules\Compiler\CMakeCommonCompilerMacros.cmake;E:\CMake\share\cmake-3.31\Modules\Compiler\Clang-DetermineCompiler.cmake;E:\CMake\share\cmake-3.31\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;E:\CMake\share\cmake-3.31\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;E:\CMake\share\cmake-3.31\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;E:\CMake\share\cmake-3.31\Modules\Compiler\Cray-DetermineCompiler.cmake;E:\CMake\share\cmake-3.31\Modules\Compiler\CrayClang-DetermineCompiler.cmake;E:\CMake\share\cmake-3.31\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;E:\CMake\share\cmake-3.31\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;E:\CMake\share\cmake-3.31\Modules\Compiler\FujitsuClang-DetermineCompiler.cmake;E:\CMake\share\cmake-3.31\Modules\Compiler\GHS-DetermineCompiler.cmake;E:\CMake\share\cmake-3.31\Modules\Compiler\GNU-C-DetermineCompiler.cmake;E:\CMake\share\cmake-3.31\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;E:\CMake\share\cmake-3.31\Modules\Compiler\HP-C-DetermineCompiler.cmake;E:\CMake\share\cmake-3.31\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;E:\CMake\share\cmake-3.31\Modules\Compiler\IAR-DetermineCompiler.cmake;E:\CMake\share\cmake-3.31\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;E:\CMake\share\cmake-3.31\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;E:\CMake\share\cmake-3.31\Modules\Compiler\IBMClang-C-DetermineCompiler.cmake;E:\CMake\share\cmake-3.31\Modules\Compiler\IBMClang-CXX-DetermineCompiler.cmake;E:\CMake\share\cmake-3.31\Modules\Compiler\Intel-DetermineCompiler.cmake;E:\CMake\share\cmake-3.31\Modules\Compiler\IntelLLVM-DetermineCompiler.cmake;E:\CMake\share\cmake-3.31\Modules\Compiler\LCC-C-DetermineCompiler.cmake;E:\CMake\share\cmake-3.31\Modules\Compiler\LCC-CXX-DetermineCompiler.cmake;E:\CMake\share\cmake-3.31\Modules\Compiler\MSVC-C.cmake;E:\CMake\share\cmake-3.31\Modules\Compiler\MSVC-CXX.cmake;E:\CMake\share\cmake-3.31\Modules\Compiler\MSVC-DetermineCompiler.cmake;E:\CMake\share\cmake-3.31\Modules\Compiler\MSVC.cmake;E:\CMake\share\cmake-3.31\Modules\Compiler\NVHPC-DetermineCompiler.cmake;E:\CMake\share\cmake-3.31\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;E:\CMake\share\cmake-3.31\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;E:\CMake\share\cmake-3.31\Modules\Compiler\OrangeC-DetermineCompiler.cmake;E:\CMake\share\cmake-3.31\Modules\Compiler\PGI-DetermineCompiler.cmake;E:\CMake\share\cmake-3.31\Modules\Compiler\PathScale-DetermineCompiler.cmake;E:\CMake\share\cmake-3.31\Modules\Compiler\SCO-DetermineCompiler.cmake;E:\CMake\share\cmake-3.31\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;E:\CMake\share\cmake-3.31\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;E:\CMake\share\cmake-3.31\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;E:\CMake\share\cmake-3.31\Modules\Compiler\TI-DetermineCompiler.cmake;E:\CMake\share\cmake-3.31\Modules\Compiler\TIClang-DetermineCompiler.cmake;E:\CMake\share\cmake-3.31\Modules\Compiler\Tasking-DetermineCompiler.cmake;E:\CMake\share\cmake-3.31\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;E:\CMake\share\cmake-3.31\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;E:\CMake\share\cmake-3.31\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;E:\CMake\share\cmake-3.31\Modules\Compiler\Watcom-DetermineCompiler.cmake;E:\CMake\share\cmake-3.31\Modules\Compiler\XL-C-DetermineCompiler.cmake;E:\CMake\share\cmake-3.31\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;E:\CMake\share\cmake-3.31\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;E:\CMake\share\cmake-3.31\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;E:\CMake\share\cmake-3.31\Modules\Compiler\zOS-C-DetermineCompiler.cmake;E:\CMake\share\cmake-3.31\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;E:\CMake\share\cmake-3.31\Modules\CompilerId\VS-10.vcxproj.in;E:\CMake\share\cmake-3.31\Modules\FindOpenGL.cmake;E:\CMake\share\cmake-3.31\Modules\FindPackageHandleStandardArgs.cmake;E:\CMake\share\cmake-3.31\Modules\FindPackageMessage.cmake;E:\CMake\share\cmake-3.31\Modules\Internal\CMakeCLinkerInformation.cmake;E:\CMake\share\cmake-3.31\Modules\Internal\CMakeCXXLinkerInformation.cmake;E:\CMake\share\cmake-3.31\Modules\Internal\CMakeCommonLinkerInformation.cmake;E:\CMake\share\cmake-3.31\Modules\Internal\CMakeDetermineLinkerId.cmake;E:\CMake\share\cmake-3.31\Modules\Internal\FeatureTesting.cmake;E:\CMake\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC-C.cmake;E:\CMake\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;E:\CMake\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC.cmake;E:\CMake\share\cmake-3.31\Modules\Platform\Windows-Determine-CXX.cmake;E:\CMake\share\cmake-3.31\Modules\Platform\Windows-Initialize.cmake;E:\CMake\share\cmake-3.31\Modules\Platform\Windows-MSVC-C.cmake;E:\CMake\share\cmake-3.31\Modules\Platform\Windows-MSVC-CXX.cmake;E:\CMake\share\cmake-3.31\Modules\Platform\Windows-MSVC.cmake;E:\CMake\share\cmake-3.31\Modules\Platform\Windows.cmake;E:\CMake\share\cmake-3.31\Modules\Platform\WindowsPaths.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\basar\Desktop\Tema2\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/basar/Desktop/Tema2/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+E:\CMake\bin\cmake.exe -SC:/Users/basar/Desktop/Tema2 -BC:/Users/basar/Desktop/Tema2/build --check-stamp-file C:/Users/basar/Desktop/Tema2/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\basar\Desktop\Tema2\build\CMakeFiles\3.31.0-rc3\CMakeCCompiler.cmake;C:\Users\basar\Desktop\Tema2\build\CMakeFiles\3.31.0-rc3\CMakeCXXCompiler.cmake;C:\Users\basar\Desktop\Tema2\build\CMakeFiles\3.31.0-rc3\CMakeRCCompiler.cmake;C:\Users\basar\Desktop\Tema2\build\CMakeFiles\3.31.0-rc3\CMakeSystem.cmake;C:\Users\basar\Desktop\Tema2\infra\utils.cmake;E:\CMake\share\cmake-3.31\Modules\CMakeCCompiler.cmake.in;E:\CMake\share\cmake-3.31\Modules\CMakeCCompilerABI.c;E:\CMake\share\cmake-3.31\Modules\CMakeCInformation.cmake;E:\CMake\share\cmake-3.31\Modules\CMakeCXXCompiler.cmake.in;E:\CMake\share\cmake-3.31\Modules\CMakeCXXCompilerABI.cpp;E:\CMake\share\cmake-3.31\Modules\CMakeCXXInformation.cmake;E:\CMake\share\cmake-3.31\Modules\CMakeCommonLanguageInclude.cmake;E:\CMake\share\cmake-3.31\Modules\CMakeCompilerIdDetection.cmake;E:\CMake\share\cmake-3.31\Modules\CMakeDetermineCCompiler.cmake;E:\CMake\share\cmake-3.31\Modules\CMakeDetermineCXXCompiler.cmake;E:\CMake\share\cmake-3.31\Modules\CMakeDetermineCompiler.cmake;E:\CMake\share\cmake-3.31\Modules\CMakeDetermineCompilerABI.cmake;E:\CMake\share\cmake-3.31\Modules\CMakeDetermineCompilerId.cmake;E:\CMake\share\cmake-3.31\Modules\CMakeDetermineCompilerSupport.cmake;E:\CMake\share\cmake-3.31\Modules\CMakeDetermineRCCompiler.cmake;E:\CMake\share\cmake-3.31\Modules\CMakeDetermineSystem.cmake;E:\CMake\share\cmake-3.31\Modules\CMakeFindBinUtils.cmake;E:\CMake\share\cmake-3.31\Modules\CMakeGenericSystem.cmake;E:\CMake\share\cmake-3.31\Modules\CMakeInitializeConfigs.cmake;E:\CMake\share\cmake-3.31\Modules\CMakeLanguageInformation.cmake;E:\CMake\share\cmake-3.31\Modules\CMakeParseImplicitIncludeInfo.cmake;E:\CMake\share\cmake-3.31\Modules\CMakeParseImplicitLinkInfo.cmake;E:\CMake\share\cmake-3.31\Modules\CMakeParseLibraryArchitecture.cmake;E:\CMake\share\cmake-3.31\Modules\CMakeRCCompiler.cmake.in;E:\CMake\share\cmake-3.31\Modules\CMakeRCInformation.cmake;E:\CMake\share\cmake-3.31\Modules\CMakeSystem.cmake.in;E:\CMake\share\cmake-3.31\Modules\CMakeSystemSpecificInformation.cmake;E:\CMake\share\cmake-3.31\Modules\CMakeSystemSpecificInitialize.cmake;E:\CMake\share\cmake-3.31\Modules\CMakeTestCCompiler.cmake;E:\CMake\share\cmake-3.31\Modules\CMakeTestCXXCompiler.cmake;E:\CMake\share\cmake-3.31\Modules\CMakeTestCompilerCommon.cmake;E:\CMake\share\cmake-3.31\Modules\CMakeTestRCCompiler.cmake;E:\CMake\share\cmake-3.31\Modules\Compiler\ADSP-DetermineCompiler.cmake;E:\CMake\share\cmake-3.31\Modules\Compiler\ARMCC-DetermineCompiler.cmake;E:\CMake\share\cmake-3.31\Modules\Compiler\ARMClang-DetermineCompiler.cmake;E:\CMake\share\cmake-3.31\Modules\Compiler\AppleClang-DetermineCompiler.cmake;E:\CMake\share\cmake-3.31\Modules\Compiler\Borland-DetermineCompiler.cmake;E:\CMake\share\cmake-3.31\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;E:\CMake\share\cmake-3.31\Modules\Compiler\CMakeCommonCompilerMacros.cmake;E:\CMake\share\cmake-3.31\Modules\Compiler\Clang-DetermineCompiler.cmake;E:\CMake\share\cmake-3.31\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;E:\CMake\share\cmake-3.31\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;E:\CMake\share\cmake-3.31\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;E:\CMake\share\cmake-3.31\Modules\Compiler\Cray-DetermineCompiler.cmake;E:\CMake\share\cmake-3.31\Modules\Compiler\CrayClang-DetermineCompiler.cmake;E:\CMake\share\cmake-3.31\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;E:\CMake\share\cmake-3.31\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;E:\CMake\share\cmake-3.31\Modules\Compiler\FujitsuClang-DetermineCompiler.cmake;E:\CMake\share\cmake-3.31\Modules\Compiler\GHS-DetermineCompiler.cmake;E:\CMake\share\cmake-3.31\Modules\Compiler\GNU-C-DetermineCompiler.cmake;E:\CMake\share\cmake-3.31\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;E:\CMake\share\cmake-3.31\Modules\Compiler\HP-C-DetermineCompiler.cmake;E:\CMake\share\cmake-3.31\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;E:\CMake\share\cmake-3.31\Modules\Compiler\IAR-DetermineCompiler.cmake;E:\CMake\share\cmake-3.31\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;E:\CMake\share\cmake-3.31\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;E:\CMake\share\cmake-3.31\Modules\Compiler\IBMClang-C-DetermineCompiler.cmake;E:\CMake\share\cmake-3.31\Modules\Compiler\IBMClang-CXX-DetermineCompiler.cmake;E:\CMake\share\cmake-3.31\Modules\Compiler\Intel-DetermineCompiler.cmake;E:\CMake\share\cmake-3.31\Modules\Compiler\IntelLLVM-DetermineCompiler.cmake;E:\CMake\share\cmake-3.31\Modules\Compiler\LCC-C-DetermineCompiler.cmake;E:\CMake\share\cmake-3.31\Modules\Compiler\LCC-CXX-DetermineCompiler.cmake;E:\CMake\share\cmake-3.31\Modules\Compiler\MSVC-C.cmake;E:\CMake\share\cmake-3.31\Modules\Compiler\MSVC-CXX.cmake;E:\CMake\share\cmake-3.31\Modules\Compiler\MSVC-DetermineCompiler.cmake;E:\CMake\share\cmake-3.31\Modules\Compiler\MSVC.cmake;E:\CMake\share\cmake-3.31\Modules\Compiler\NVHPC-DetermineCompiler.cmake;E:\CMake\share\cmake-3.31\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;E:\CMake\share\cmake-3.31\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;E:\CMake\share\cmake-3.31\Modules\Compiler\OrangeC-DetermineCompiler.cmake;E:\CMake\share\cmake-3.31\Modules\Compiler\PGI-DetermineCompiler.cmake;E:\CMake\share\cmake-3.31\Modules\Compiler\PathScale-DetermineCompiler.cmake;E:\CMake\share\cmake-3.31\Modules\Compiler\SCO-DetermineCompiler.cmake;E:\CMake\share\cmake-3.31\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;E:\CMake\share\cmake-3.31\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;E:\CMake\share\cmake-3.31\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;E:\CMake\share\cmake-3.31\Modules\Compiler\TI-DetermineCompiler.cmake;E:\CMake\share\cmake-3.31\Modules\Compiler\TIClang-DetermineCompiler.cmake;E:\CMake\share\cmake-3.31\Modules\Compiler\Tasking-DetermineCompiler.cmake;E:\CMake\share\cmake-3.31\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;E:\CMake\share\cmake-3.31\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;E:\CMake\share\cmake-3.31\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;E:\CMake\share\cmake-3.31\Modules\Compiler\Watcom-DetermineCompiler.cmake;E:\CMake\share\cmake-3.31\Modules\Compiler\XL-C-DetermineCompiler.cmake;E:\CMake\share\cmake-3.31\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;E:\CMake\share\cmake-3.31\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;E:\CMake\share\cmake-3.31\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;E:\CMake\share\cmake-3.31\Modules\Compiler\zOS-C-DetermineCompiler.cmake;E:\CMake\share\cmake-3.31\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;E:\CMake\share\cmake-3.31\Modules\CompilerId\VS-10.vcxproj.in;E:\CMake\share\cmake-3.31\Modules\FindOpenGL.cmake;E:\CMake\share\cmake-3.31\Modules\FindPackageHandleStandardArgs.cmake;E:\CMake\share\cmake-3.31\Modules\FindPackageMessage.cmake;E:\CMake\share\cmake-3.31\Modules\Internal\CMakeCLinkerInformation.cmake;E:\CMake\share\cmake-3.31\Modules\Internal\CMakeCXXLinkerInformation.cmake;E:\CMake\share\cmake-3.31\Modules\Internal\CMakeCommonLinkerInformation.cmake;E:\CMake\share\cmake-3.31\Modules\Internal\CMakeDetermineLinkerId.cmake;E:\CMake\share\cmake-3.31\Modules\Internal\FeatureTesting.cmake;E:\CMake\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC-C.cmake;E:\CMake\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;E:\CMake\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC.cmake;E:\CMake\share\cmake-3.31\Modules\Platform\Windows-Determine-CXX.cmake;E:\CMake\share\cmake-3.31\Modules\Platform\Windows-Initialize.cmake;E:\CMake\share\cmake-3.31\Modules\Platform\Windows-MSVC-C.cmake;E:\CMake\share\cmake-3.31\Modules\Platform\Windows-MSVC-CXX.cmake;E:\CMake\share\cmake-3.31\Modules\Platform\Windows-MSVC.cmake;E:\CMake\share\cmake-3.31\Modules\Platform\Windows.cmake;E:\CMake\share\cmake-3.31\Modules\Platform\WindowsPaths.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\basar\Desktop\Tema2\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/basar/Desktop/Tema2/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+E:\CMake\bin\cmake.exe -SC:/Users/basar/Desktop/Tema2 -BC:/Users/basar/Desktop/Tema2/build --check-stamp-file C:/Users/basar/Desktop/Tema2/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\basar\Desktop\Tema2\build\CMakeFiles\3.31.0-rc3\CMakeCCompiler.cmake;C:\Users\basar\Desktop\Tema2\build\CMakeFiles\3.31.0-rc3\CMakeCXXCompiler.cmake;C:\Users\basar\Desktop\Tema2\build\CMakeFiles\3.31.0-rc3\CMakeRCCompiler.cmake;C:\Users\basar\Desktop\Tema2\build\CMakeFiles\3.31.0-rc3\CMakeSystem.cmake;C:\Users\basar\Desktop\Tema2\infra\utils.cmake;E:\CMake\share\cmake-3.31\Modules\CMakeCCompiler.cmake.in;E:\CMake\share\cmake-3.31\Modules\CMakeCCompilerABI.c;E:\CMake\share\cmake-3.31\Modules\CMakeCInformation.cmake;E:\CMake\share\cmake-3.31\Modules\CMakeCXXCompiler.cmake.in;E:\CMake\share\cmake-3.31\Modules\CMakeCXXCompilerABI.cpp;E:\CMake\share\cmake-3.31\Modules\CMakeCXXInformation.cmake;E:\CMake\share\cmake-3.31\Modules\CMakeCommonLanguageInclude.cmake;E:\CMake\share\cmake-3.31\Modules\CMakeCompilerIdDetection.cmake;E:\CMake\share\cmake-3.31\Modules\CMakeDetermineCCompiler.cmake;E:\CMake\share\cmake-3.31\Modules\CMakeDetermineCXXCompiler.cmake;E:\CMake\share\cmake-3.31\Modules\CMakeDetermineCompiler.cmake;E:\CMake\share\cmake-3.31\Modules\CMakeDetermineCompilerABI.cmake;E:\CMake\share\cmake-3.31\Modules\CMakeDetermineCompilerId.cmake;E:\CMake\share\cmake-3.31\Modules\CMakeDetermineCompilerSupport.cmake;E:\CMake\share\cmake-3.31\Modules\CMakeDetermineRCCompiler.cmake;E:\CMake\share\cmake-3.31\Modules\CMakeDetermineSystem.cmake;E:\CMake\share\cmake-3.31\Modules\CMakeFindBinUtils.cmake;E:\CMake\share\cmake-3.31\Modules\CMakeGenericSystem.cmake;E:\CMake\share\cmake-3.31\Modules\CMakeInitializeConfigs.cmake;E:\CMake\share\cmake-3.31\Modules\CMakeLanguageInformation.cmake;E:\CMake\share\cmake-3.31\Modules\CMakeParseImplicitIncludeInfo.cmake;E:\CMake\share\cmake-3.31\Modules\CMakeParseImplicitLinkInfo.cmake;E:\CMake\share\cmake-3.31\Modules\CMakeParseLibraryArchitecture.cmake;E:\CMake\share\cmake-3.31\Modules\CMakeRCCompiler.cmake.in;E:\CMake\share\cmake-3.31\Modules\CMakeRCInformation.cmake;E:\CMake\share\cmake-3.31\Modules\CMakeSystem.cmake.in;E:\CMake\share\cmake-3.31\Modules\CMakeSystemSpecificInformation.cmake;E:\CMake\share\cmake-3.31\Modules\CMakeSystemSpecificInitialize.cmake;E:\CMake\share\cmake-3.31\Modules\CMakeTestCCompiler.cmake;E:\CMake\share\cmake-3.31\Modules\CMakeTestCXXCompiler.cmake;E:\CMake\share\cmake-3.31\Modules\CMakeTestCompilerCommon.cmake;E:\CMake\share\cmake-3.31\Modules\CMakeTestRCCompiler.cmake;E:\CMake\share\cmake-3.31\Modules\Compiler\ADSP-DetermineCompiler.cmake;E:\CMake\share\cmake-3.31\Modules\Compiler\ARMCC-DetermineCompiler.cmake;E:\CMake\share\cmake-3.31\Modules\Compiler\ARMClang-DetermineCompiler.cmake;E:\CMake\share\cmake-3.31\Modules\Compiler\AppleClang-DetermineCompiler.cmake;E:\CMake\share\cmake-3.31\Modules\Compiler\Borland-DetermineCompiler.cmake;E:\CMake\share\cmake-3.31\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;E:\CMake\share\cmake-3.31\Modules\Compiler\CMakeCommonCompilerMacros.cmake;E:\CMake\share\cmake-3.31\Modules\Compiler\Clang-DetermineCompiler.cmake;E:\CMake\share\cmake-3.31\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;E:\CMake\share\cmake-3.31\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;E:\CMake\share\cmake-3.31\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;E:\CMake\share\cmake-3.31\Modules\Compiler\Cray-DetermineCompiler.cmake;E:\CMake\share\cmake-3.31\Modules\Compiler\CrayClang-DetermineCompiler.cmake;E:\CMake\share\cmake-3.31\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;E:\CMake\share\cmake-3.31\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;E:\CMake\share\cmake-3.31\Modules\Compiler\FujitsuClang-DetermineCompiler.cmake;E:\CMake\share\cmake-3.31\Modules\Compiler\GHS-DetermineCompiler.cmake;E:\CMake\share\cmake-3.31\Modules\Compiler\GNU-C-DetermineCompiler.cmake;E:\CMake\share\cmake-3.31\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;E:\CMake\share\cmake-3.31\Modules\Compiler\HP-C-DetermineCompiler.cmake;E:\CMake\share\cmake-3.31\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;E:\CMake\share\cmake-3.31\Modules\Compiler\IAR-DetermineCompiler.cmake;E:\CMake\share\cmake-3.31\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;E:\CMake\share\cmake-3.31\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;E:\CMake\share\cmake-3.31\Modules\Compiler\IBMClang-C-DetermineCompiler.cmake;E:\CMake\share\cmake-3.31\Modules\Compiler\IBMClang-CXX-DetermineCompiler.cmake;E:\CMake\share\cmake-3.31\Modules\Compiler\Intel-DetermineCompiler.cmake;E:\CMake\share\cmake-3.31\Modules\Compiler\IntelLLVM-DetermineCompiler.cmake;E:\CMake\share\cmake-3.31\Modules\Compiler\LCC-C-DetermineCompiler.cmake;E:\CMake\share\cmake-3.31\Modules\Compiler\LCC-CXX-DetermineCompiler.cmake;E:\CMake\share\cmake-3.31\Modules\Compiler\MSVC-C.cmake;E:\CMake\share\cmake-3.31\Modules\Compiler\MSVC-CXX.cmake;E:\CMake\share\cmake-3.31\Modules\Compiler\MSVC-DetermineCompiler.cmake;E:\CMake\share\cmake-3.31\Modules\Compiler\MSVC.cmake;E:\CMake\share\cmake-3.31\Modules\Compiler\NVHPC-DetermineCompiler.cmake;E:\CMake\share\cmake-3.31\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;E:\CMake\share\cmake-3.31\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;E:\CMake\share\cmake-3.31\Modules\Compiler\OrangeC-DetermineCompiler.cmake;E:\CMake\share\cmake-3.31\Modules\Compiler\PGI-DetermineCompiler.cmake;E:\CMake\share\cmake-3.31\Modules\Compiler\PathScale-DetermineCompiler.cmake;E:\CMake\share\cmake-3.31\Modules\Compiler\SCO-DetermineCompiler.cmake;E:\CMake\share\cmake-3.31\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;E:\CMake\share\cmake-3.31\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;E:\CMake\share\cmake-3.31\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;E:\CMake\share\cmake-3.31\Modules\Compiler\TI-DetermineCompiler.cmake;E:\CMake\share\cmake-3.31\Modules\Compiler\TIClang-DetermineCompiler.cmake;E:\CMake\share\cmake-3.31\Modules\Compiler\Tasking-DetermineCompiler.cmake;E:\CMake\share\cmake-3.31\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;E:\CMake\share\cmake-3.31\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;E:\CMake\share\cmake-3.31\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;E:\CMake\share\cmake-3.31\Modules\Compiler\Watcom-DetermineCompiler.cmake;E:\CMake\share\cmake-3.31\Modules\Compiler\XL-C-DetermineCompiler.cmake;E:\CMake\share\cmake-3.31\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;E:\CMake\share\cmake-3.31\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;E:\CMake\share\cmake-3.31\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;E:\CMake\share\cmake-3.31\Modules\Compiler\zOS-C-DetermineCompiler.cmake;E:\CMake\share\cmake-3.31\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;E:\CMake\share\cmake-3.31\Modules\CompilerId\VS-10.vcxproj.in;E:\CMake\share\cmake-3.31\Modules\FindOpenGL.cmake;E:\CMake\share\cmake-3.31\Modules\FindPackageHandleStandardArgs.cmake;E:\CMake\share\cmake-3.31\Modules\FindPackageMessage.cmake;E:\CMake\share\cmake-3.31\Modules\Internal\CMakeCLinkerInformation.cmake;E:\CMake\share\cmake-3.31\Modules\Internal\CMakeCXXLinkerInformation.cmake;E:\CMake\share\cmake-3.31\Modules\Internal\CMakeCommonLinkerInformation.cmake;E:\CMake\share\cmake-3.31\Modules\Internal\CMakeDetermineLinkerId.cmake;E:\CMake\share\cmake-3.31\Modules\Internal\FeatureTesting.cmake;E:\CMake\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC-C.cmake;E:\CMake\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;E:\CMake\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC.cmake;E:\CMake\share\cmake-3.31\Modules\Platform\Windows-Determine-CXX.cmake;E:\CMake\share\cmake-3.31\Modules\Platform\Windows-Initialize.cmake;E:\CMake\share\cmake-3.31\Modules\Platform\Windows-MSVC-C.cmake;E:\CMake\share\cmake-3.31\Modules\Platform\Windows-MSVC-CXX.cmake;E:\CMake\share\cmake-3.31\Modules\Platform\Windows-MSVC.cmake;E:\CMake\share\cmake-3.31\Modules\Platform\Windows.cmake;E:\CMake\share\cmake-3.31\Modules\Platform\WindowsPaths.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\basar\Desktop\Tema2\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/basar/Desktop/Tema2/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+E:\CMake\bin\cmake.exe -SC:/Users/basar/Desktop/Tema2 -BC:/Users/basar/Desktop/Tema2/build --check-stamp-file C:/Users/basar/Desktop/Tema2/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\basar\Desktop\Tema2\build\CMakeFiles\3.31.0-rc3\CMakeCCompiler.cmake;C:\Users\basar\Desktop\Tema2\build\CMakeFiles\3.31.0-rc3\CMakeCXXCompiler.cmake;C:\Users\basar\Desktop\Tema2\build\CMakeFiles\3.31.0-rc3\CMakeRCCompiler.cmake;C:\Users\basar\Desktop\Tema2\build\CMakeFiles\3.31.0-rc3\CMakeSystem.cmake;C:\Users\basar\Desktop\Tema2\infra\utils.cmake;E:\CMake\share\cmake-3.31\Modules\CMakeCCompiler.cmake.in;E:\CMake\share\cmake-3.31\Modules\CMakeCCompilerABI.c;E:\CMake\share\cmake-3.31\Modules\CMakeCInformation.cmake;E:\CMake\share\cmake-3.31\Modules\CMakeCXXCompiler.cmake.in;E:\CMake\share\cmake-3.31\Modules\CMakeCXXCompilerABI.cpp;E:\CMake\share\cmake-3.31\Modules\CMakeCXXInformation.cmake;E:\CMake\share\cmake-3.31\Modules\CMakeCommonLanguageInclude.cmake;E:\CMake\share\cmake-3.31\Modules\CMakeCompilerIdDetection.cmake;E:\CMake\share\cmake-3.31\Modules\CMakeDetermineCCompiler.cmake;E:\CMake\share\cmake-3.31\Modules\CMakeDetermineCXXCompiler.cmake;E:\CMake\share\cmake-3.31\Modules\CMakeDetermineCompiler.cmake;E:\CMake\share\cmake-3.31\Modules\CMakeDetermineCompilerABI.cmake;E:\CMake\share\cmake-3.31\Modules\CMakeDetermineCompilerId.cmake;E:\CMake\share\cmake-3.31\Modules\CMakeDetermineCompilerSupport.cmake;E:\CMake\share\cmake-3.31\Modules\CMakeDetermineRCCompiler.cmake;E:\CMake\share\cmake-3.31\Modules\CMakeDetermineSystem.cmake;E:\CMake\share\cmake-3.31\Modules\CMakeFindBinUtils.cmake;E:\CMake\share\cmake-3.31\Modules\CMakeGenericSystem.cmake;E:\CMake\share\cmake-3.31\Modules\CMakeInitializeConfigs.cmake;E:\CMake\share\cmake-3.31\Modules\CMakeLanguageInformation.cmake;E:\CMake\share\cmake-3.31\Modules\CMakeParseImplicitIncludeInfo.cmake;E:\CMake\share\cmake-3.31\Modules\CMakeParseImplicitLinkInfo.cmake;E:\CMake\share\cmake-3.31\Modules\CMakeParseLibraryArchitecture.cmake;E:\CMake\share\cmake-3.31\Modules\CMakeRCCompiler.cmake.in;E:\CMake\share\cmake-3.31\Modules\CMakeRCInformation.cmake;E:\CMake\share\cmake-3.31\Modules\CMakeSystem.cmake.in;E:\CMake\share\cmake-3.31\Modules\CMakeSystemSpecificInformation.cmake;E:\CMake\share\cmake-3.31\Modules\CMakeSystemSpecificInitialize.cmake;E:\CMake\share\cmake-3.31\Modules\CMakeTestCCompiler.cmake;E:\CMake\share\cmake-3.31\Modules\CMakeTestCXXCompiler.cmake;E:\CMake\share\cmake-3.31\Modules\CMakeTestCompilerCommon.cmake;E:\CMake\share\cmake-3.31\Modules\CMakeTestRCCompiler.cmake;E:\CMake\share\cmake-3.31\Modules\Compiler\ADSP-DetermineCompiler.cmake;E:\CMake\share\cmake-3.31\Modules\Compiler\ARMCC-DetermineCompiler.cmake;E:\CMake\share\cmake-3.31\Modules\Compiler\ARMClang-DetermineCompiler.cmake;E:\CMake\share\cmake-3.31\Modules\Compiler\AppleClang-DetermineCompiler.cmake;E:\CMake\share\cmake-3.31\Modules\Compiler\Borland-DetermineCompiler.cmake;E:\CMake\share\cmake-3.31\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;E:\CMake\share\cmake-3.31\Modules\Compiler\CMakeCommonCompilerMacros.cmake;E:\CMake\share\cmake-3.31\Modules\Compiler\Clang-DetermineCompiler.cmake;E:\CMake\share\cmake-3.31\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;E:\CMake\share\cmake-3.31\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;E:\CMake\share\cmake-3.31\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;E:\CMake\share\cmake-3.31\Modules\Compiler\Cray-DetermineCompiler.cmake;E:\CMake\share\cmake-3.31\Modules\Compiler\CrayClang-DetermineCompiler.cmake;E:\CMake\share\cmake-3.31\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;E:\CMake\share\cmake-3.31\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;E:\CMake\share\cmake-3.31\Modules\Compiler\FujitsuClang-DetermineCompiler.cmake;E:\CMake\share\cmake-3.31\Modules\Compiler\GHS-DetermineCompiler.cmake;E:\CMake\share\cmake-3.31\Modules\Compiler\GNU-C-DetermineCompiler.cmake;E:\CMake\share\cmake-3.31\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;E:\CMake\share\cmake-3.31\Modules\Compiler\HP-C-DetermineCompiler.cmake;E:\CMake\share\cmake-3.31\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;E:\CMake\share\cmake-3.31\Modules\Compiler\IAR-DetermineCompiler.cmake;E:\CMake\share\cmake-3.31\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;E:\CMake\share\cmake-3.31\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;E:\CMake\share\cmake-3.31\Modules\Compiler\IBMClang-C-DetermineCompiler.cmake;E:\CMake\share\cmake-3.31\Modules\Compiler\IBMClang-CXX-DetermineCompiler.cmake;E:\CMake\share\cmake-3.31\Modules\Compiler\Intel-DetermineCompiler.cmake;E:\CMake\share\cmake-3.31\Modules\Compiler\IntelLLVM-DetermineCompiler.cmake;E:\CMake\share\cmake-3.31\Modules\Compiler\LCC-C-DetermineCompiler.cmake;E:\CMake\share\cmake-3.31\Modules\Compiler\LCC-CXX-DetermineCompiler.cmake;E:\CMake\share\cmake-3.31\Modules\Compiler\MSVC-C.cmake;E:\CMake\share\cmake-3.31\Modules\Compiler\MSVC-CXX.cmake;E:\CMake\share\cmake-3.31\Modules\Compiler\MSVC-DetermineCompiler.cmake;E:\CMake\share\cmake-3.31\Modules\Compiler\MSVC.cmake;E:\CMake\share\cmake-3.31\Modules\Compiler\NVHPC-DetermineCompiler.cmake;E:\CMake\share\cmake-3.31\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;E:\CMake\share\cmake-3.31\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;E:\CMake\share\cmake-3.31\Modules\Compiler\OrangeC-DetermineCompiler.cmake;E:\CMake\share\cmake-3.31\Modules\Compiler\PGI-DetermineCompiler.cmake;E:\CMake\share\cmake-3.31\Modules\Compiler\PathScale-DetermineCompiler.cmake;E:\CMake\share\cmake-3.31\Modules\Compiler\SCO-DetermineCompiler.cmake;E:\CMake\share\cmake-3.31\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;E:\CMake\share\cmake-3.31\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;E:\CMake\share\cmake-3.31\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;E:\CMake\share\cmake-3.31\Modules\Compiler\TI-DetermineCompiler.cmake;E:\CMake\share\cmake-3.31\Modules\Compiler\TIClang-DetermineCompiler.cmake;E:\CMake\share\cmake-3.31\Modules\Compiler\Tasking-DetermineCompiler.cmake;E:\CMake\share\cmake-3.31\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;E:\CMake\share\cmake-3.31\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;E:\CMake\share\cmake-3.31\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;E:\CMake\share\cmake-3.31\Modules\Compiler\Watcom-DetermineCompiler.cmake;E:\CMake\share\cmake-3.31\Modules\Compiler\XL-C-DetermineCompiler.cmake;E:\CMake\share\cmake-3.31\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;E:\CMake\share\cmake-3.31\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;E:\CMake\share\cmake-3.31\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;E:\CMake\share\cmake-3.31\Modules\Compiler\zOS-C-DetermineCompiler.cmake;E:\CMake\share\cmake-3.31\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;E:\CMake\share\cmake-3.31\Modules\CompilerId\VS-10.vcxproj.in;E:\CMake\share\cmake-3.31\Modules\FindOpenGL.cmake;E:\CMake\share\cmake-3.31\Modules\FindPackageHandleStandardArgs.cmake;E:\CMake\share\cmake-3.31\Modules\FindPackageMessage.cmake;E:\CMake\share\cmake-3.31\Modules\Internal\CMakeCLinkerInformation.cmake;E:\CMake\share\cmake-3.31\Modules\Internal\CMakeCXXLinkerInformation.cmake;E:\CMake\share\cmake-3.31\Modules\Internal\CMakeCommonLinkerInformation.cmake;E:\CMake\share\cmake-3.31\Modules\Internal\CMakeDetermineLinkerId.cmake;E:\CMake\share\cmake-3.31\Modules\Internal\FeatureTesting.cmake;E:\CMake\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC-C.cmake;E:\CMake\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;E:\CMake\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC.cmake;E:\CMake\share\cmake-3.31\Modules\Platform\Windows-Determine-CXX.cmake;E:\CMake\share\cmake-3.31\Modules\Platform\Windows-Initialize.cmake;E:\CMake\share\cmake-3.31\Modules\Platform\Windows-MSVC-C.cmake;E:\CMake\share\cmake-3.31\Modules\Platform\Windows-MSVC-CXX.cmake;E:\CMake\share\cmake-3.31\Modules\Platform\Windows-MSVC.cmake;E:\CMake\share\cmake-3.31\Modules\Platform\Windows.cmake;E:\CMake\share\cmake-3.31\Modules\Platform\WindowsPaths.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\basar\Desktop\Tema2\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Users\basar\Desktop\Tema2\src\components\camera_input.cpp" />
+    <ClCompile Include="C:\Users\basar\Desktop\Tema2\src\components\scene_input.cpp" />
+    <ClCompile Include="C:\Users\basar\Desktop\Tema2\src\components\simple_scene.cpp" />
+    <ClCompile Include="C:\Users\basar\Desktop\Tema2\src\components\text_renderer.cpp" />
+    <ClCompile Include="C:\Users\basar\Desktop\Tema2\src\core\engine.cpp" />
+    <ClCompile Include="C:\Users\basar\Desktop\Tema2\src\core\gpu\frame_buffer.cpp" />
+    <ClCompile Include="C:\Users\basar\Desktop\Tema2\src\core\gpu\gpu_buffers.cpp" />
+    <ClCompile Include="C:\Users\basar\Desktop\Tema2\src\core\gpu\mesh.cpp" />
+    <ClCompile Include="C:\Users\basar\Desktop\Tema2\src\core\gpu\shader.cpp" />
+    <ClCompile Include="C:\Users\basar\Desktop\Tema2\src\core\gpu\texture2D.cpp" />
+    <ClCompile Include="C:\Users\basar\Desktop\Tema2\src\core\managers\texture_manager.cpp" />
+    <ClCompile Include="C:\Users\basar\Desktop\Tema2\src\core\window\input_controller.cpp" />
+    <ClCompile Include="C:\Users\basar\Desktop\Tema2\src\core\window\window_callbacks.cpp" />
+    <ClCompile Include="C:\Users\basar\Desktop\Tema2\src\core\window\window_object.cpp" />
+    <ClCompile Include="C:\Users\basar\Desktop\Tema2\src\core\world.cpp" />
+    <ClCompile Include="C:\Users\basar\Desktop\Tema2\src\lab_m1\Tema2\Camera.cpp" />
+    <ClCompile Include="C:\Users\basar\Desktop\Tema2\src\lab_m1\Tema2\MainTema2.cpp" />
+    <ClCompile Include="C:\Users\basar\Desktop\Tema2\src\lab_m1\Tema2\Math.cpp" />
+    <ClCompile Include="C:\Users\basar\Desktop\Tema2\src\lab_m1\Tema2\Terrain.cpp" />
+    <ClCompile Include="C:\Users\basar\Desktop\Tema2\src\main.cpp" />
+    <ClCompile Include="C:\Users\basar\Desktop\Tema2\src\utils\gl_utils.cpp" />
+    <ClCompile Include="C:\Users\basar\Desktop\Tema2\src\utils\text_utils.cpp" />
+    <ClInclude Include="C:\Users\basar\Desktop\Tema2\src\components\camera.h" />
+    <ClInclude Include="C:\Users\basar\Desktop\Tema2\src\components\camera_input.h" />
+    <ClInclude Include="C:\Users\basar\Desktop\Tema2\src\components\exports.h" />
+    <ClInclude Include="C:\Users\basar\Desktop\Tema2\src\components\scene_input.h" />
+    <ClInclude Include="C:\Users\basar\Desktop\Tema2\src\components\simple_scene.h" />
+    <ClInclude Include="C:\Users\basar\Desktop\Tema2\src\components\text_renderer.h" />
+    <ClInclude Include="C:\Users\basar\Desktop\Tema2\src\components\transform.h" />
+    <ClInclude Include="C:\Users\basar\Desktop\Tema2\src\core\engine.h" />
+    <ClInclude Include="C:\Users\basar\Desktop\Tema2\src\core\gpu\frame_buffer.h" />
+    <ClInclude Include="C:\Users\basar\Desktop\Tema2\src\core\gpu\gpu_buffers.h" />
+    <ClInclude Include="C:\Users\basar\Desktop\Tema2\src\core\gpu\mesh.h" />
+    <ClInclude Include="C:\Users\basar\Desktop\Tema2\src\core\gpu\particle_effect.h" />
+    <ClInclude Include="C:\Users\basar\Desktop\Tema2\src\core\gpu\shader.h" />
+    <ClInclude Include="C:\Users\basar\Desktop\Tema2\src\core\gpu\ssbo.h" />
+    <ClInclude Include="C:\Users\basar\Desktop\Tema2\src\core\gpu\texture2D.h" />
+    <ClInclude Include="C:\Users\basar\Desktop\Tema2\src\core\gpu\vertex_bone_data.h" />
+    <ClInclude Include="C:\Users\basar\Desktop\Tema2\src\core\gpu\vertex_format.h" />
+    <ClInclude Include="C:\Users\basar\Desktop\Tema2\src\core\managers\resource_path.h" />
+    <ClInclude Include="C:\Users\basar\Desktop\Tema2\src\core\managers\texture_manager.h" />
+    <ClInclude Include="C:\Users\basar\Desktop\Tema2\src\core\window\input_controller.h" />
+    <ClInclude Include="C:\Users\basar\Desktop\Tema2\src\core\window\window_callbacks.h" />
+    <ClInclude Include="C:\Users\basar\Desktop\Tema2\src\core\window\window_object.h" />
+    <ClInclude Include="C:\Users\basar\Desktop\Tema2\src\core\world.h" />
+    <ClInclude Include="C:\Users\basar\Desktop\Tema2\src\lab_m1\Tema2\Camera.h" />
+    <ClInclude Include="C:\Users\basar\Desktop\Tema2\src\lab_m1\Tema2\MainTema2.h" />
+    <ClInclude Include="C:\Users\basar\Desktop\Tema2\src\lab_m1\Tema2\Math.h" />
+    <ClInclude Include="C:\Users\basar\Desktop\Tema2\src\lab_m1\Tema2\Terrain.h" />
+    <ClInclude Include="C:\Users\basar\Desktop\Tema2\src\lab_m1\Tema2\shaders\Cloud.Frag.glsl" />
+    <ClInclude Include="C:\Users\basar\Desktop\Tema2\src\lab_m1\Tema2\shaders\Cloud.Vertex.glsl" />
+    <ClInclude Include="C:\Users\basar\Desktop\Tema2\src\lab_m1\Tema2\shaders\Leaves.Frag.glsl" />
+    <ClInclude Include="C:\Users\basar\Desktop\Tema2\src\lab_m1\Tema2\shaders\Leaves.Vertex.glsl" />
+    <ClInclude Include="C:\Users\basar\Desktop\Tema2\src\lab_m1\Tema2\shaders\Noise.Frag.glsl" />
+    <ClInclude Include="C:\Users\basar\Desktop\Tema2\src\lab_m1\Tema2\shaders\Noise.Vertex.glsl" />
+    <ClInclude Include="C:\Users\basar\Desktop\Tema2\src\lab_m1\Tema2\shaders\Terrain.Frag.glsl" />
+    <ClInclude Include="C:\Users\basar\Desktop\Tema2\src\lab_m1\Tema2\shaders\Terrain.Vertex.glsl" />
+    <ClInclude Include="C:\Users\basar\Desktop\Tema2\src\lab_m1\Tema2\shaders\Trunk.Frag.glsl" />
+    <ClInclude Include="C:\Users\basar\Desktop\Tema2\src\lab_m1\Tema2\shaders\Trunk.Vertex.glsl" />
+    <ClInclude Include="C:\Users\basar\Desktop\Tema2\src\lab_m1\lab_list.h" />
+    <ClInclude Include="C:\Users\basar\Desktop\Tema2\src\utils\gl_utils.h" />
+    <ClInclude Include="C:\Users\basar\Desktop\Tema2\src\utils\glm_utils.h" />
+    <ClInclude Include="C:\Users\basar\Desktop\Tema2\src\utils\math_utils.h" />
+    <ClInclude Include="C:\Users\basar\Desktop\Tema2\src\utils\memory_utils.h" />
+    <ClInclude Include="C:\Users\basar\Desktop\Tema2\src\utils\text_utils.h" />
+    <ClInclude Include="C:\Users\basar\Desktop\Tema2\src\utils\window_utils.h" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\basar\Desktop\Tema2\build\ZERO_CHECK.vcxproj">
+      <Project>{B3C2ED57-825D-3FF8-90C1-AFA5172823B0}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
